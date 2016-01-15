@@ -1,0 +1,329 @@
+FieldName: Age
+FieldName: Height
+FieldName: Weight
+FieldName: Eyes
+FieldName: Skin
+FieldName: Hair
+FieldName: Allies
+FieldName: FactionName
+FieldName: Backstory
+
+FieldName: Feat+Traits
+FieldName: Treasure
+FieldName: CHARACTER IMAGE
+FieldName: Faction Symbol Image
+
+FieldName: ClassLevel
+FieldName: Background
+FieldName: PlayerName
+FieldName: CharacterName
+FieldName: Race 
+FieldName: Alignment
+FieldName: XP
+FieldName: Inspiration
+FieldName: ProfBonus
+FieldName: AC
+FieldName: Initiative
+FieldName: Speed
+FieldName: PersonalityTraits 
+FieldName: HPMax
+
+FieldName: ST Strength
+FieldName: ST Dexterity
+FieldName: ST Constitution
+FieldName: ST Intelligence
+FieldName: ST Wisdom
+FieldName: ST Charisma
+
+FieldName: HPCurrent
+FieldName: Ideals
+FieldName: HPTemp
+FieldName: Bonds
+FieldName: HDTotal
+FieldName: Check Box 12
+FieldName: Check Box 13
+FieldName: Check Box 14
+FieldName: Check Box 15
+FieldName: Check Box 16
+FieldName: Check Box 17
+FieldName: HD
+FieldName: Flaws
+FieldName: Acrobatics
+FieldName: Animal
+FieldName: Athletics
+FieldName: Deception 
+FieldName: History 
+FieldName: Insight
+FieldName: Intimidation
+FieldName: Check Box 11
+FieldName: Check Box 18
+FieldName: Check Box 19
+FieldName: Check Box 20
+FieldName: Check Box 21
+FieldName: Check Box 22
+FieldName: Wpn Name
+FieldName: Wpn1 AtkBonus
+FieldName: Wpn1 Damage
+FieldName: INTmod
+FieldName: Wpn Name 2
+FieldName: Wpn2 AtkBonus 
+FieldName: Wpn2 Damage 
+FieldName: Investigation 
+FieldName: Wpn Name 3
+FieldName: Wpn3 AtkBonus  
+FieldName: Arcana
+FieldName: Wpn3 Damage 
+FieldName: Perception 
+FieldName: CHA
+FieldName: Nature
+FieldName: Performance
+FieldName: Medicine
+FieldName: Religion
+FieldName: Stealth 
+FieldName: Check Box 23
+FieldName: Check Box 24
+FieldName: Check Box 25
+FieldName: Check Box 26
+FieldName: Check Box 27
+FieldName: Check Box 28
+FieldName: Check Box 29
+FieldName: Check Box 30
+FieldName: Check Box 31
+FieldName: Check Box 32
+FieldName: Check Box 33
+FieldName: Check Box 34
+FieldName: Check Box 35
+FieldName: Check Box 36
+FieldName: Check Box 37
+FieldName: Check Box 38
+FieldName: Check Box 39
+FieldName: Check Box 40
+FieldName: Persuasion
+FieldName: SleightofHand
+FieldName: Survival
+FieldName: AttacksSpellcasting
+FieldName: Passive
+FieldName: CP
+FieldName: ProficienciesLang
+FieldName: SP
+FieldName: EP
+FieldName: GP
+FieldName: PP
+FieldName: Equipment
+FieldName: Features and Traits
+
+# Spells
+FieldName: Spellcasting Class 2
+FieldName: SpellcastingAbility 2
+FieldName: SpellSaveDC  2
+FieldName: SpellAtkBonus 2
+FieldName: SlotsTotal 19
+FieldName: SlotsRemaining 19
+FieldName: Spells 1014
+FieldName: Spells 1015
+FieldName: Spells 1016
+FieldName: Spells 1017
+FieldName: Spells 1018
+FieldName: Spells 1019
+FieldName: Spells 1020
+FieldName: Spells 1021
+FieldName: Spells 1022
+FieldName: Check Box 314
+FieldName: Check Box 3031
+FieldName: Check Box 3032
+FieldName: Check Box 3033
+FieldName: Check Box 3034
+FieldName: Check Box 3035
+FieldName: Check Box 3036
+FieldName: Check Box 3037
+FieldName: Check Box 3038
+FieldName: Check Box 3039
+FieldName: Check Box 3040
+FieldName: Check Box 321
+FieldName: Check Box 320
+FieldName: Check Box 3060
+FieldName: Check Box 3061
+FieldName: Check Box 3062
+FieldName: Check Box 3063
+FieldName: Check Box 3064
+FieldName: Check Box 3065
+FieldName: Check Box 3066
+FieldName: Check Box 315
+FieldName: Check Box 3041
+FieldName: Spells 1023
+FieldName: Check Box 251
+FieldName: Check Box 309
+FieldName: Check Box 3010
+FieldName: Check Box 3011
+FieldName: Check Box 3012
+FieldName: Check Box 3013
+FieldName: Check Box 3014
+FieldName: Check Box 3015
+FieldName: Check Box 3016
+FieldName: Check Box 3017
+FieldName: Check Box 3018
+FieldName: Check Box 3019
+FieldName: Spells 1024
+FieldName: Spells 1025
+FieldName: Spells 1026
+FieldName: Spells 1027
+FieldName: Spells 1028
+FieldName: Spells 1029
+FieldName: Spells 1030
+FieldName: Spells 1031
+FieldName: Spells 1032
+FieldName: Spells 1033
+FieldName: SlotsTotal 20
+FieldName: SlotsRemaining 20
+FieldName: Spells 1034
+FieldName: Spells 1035
+FieldName: Spells 1036
+FieldName: Spells 1037
+FieldName: Spells 1038
+FieldName: Spells 1039
+FieldName: Spells 1040
+FieldName: Spells 1041
+FieldName: Spells 1042
+FieldName: Spells 1043
+FieldName: Spells 1044
+FieldName: Spells 1045
+FieldName: Spells 1046
+FieldName: SlotsTotal 21
+FieldName: SlotsRemaining 21
+FieldName: Spells 1047
+FieldName: Spells 1048
+FieldName: Spells 1049
+FieldName: Spells 1050
+FieldName: Spells 1051
+FieldName: Spells 1052
+FieldName: Spells 1053
+FieldName: Spells 1054
+FieldName: Spells 1055
+FieldName: Spells 1056
+FieldName: Spells 1057
+FieldName: Spells 1058
+FieldName: Spells 1059
+FieldName: SlotsTotal 22
+FieldName: SlotsRemaining 22
+FieldName: Spells 1060
+FieldName: Spells 1061
+FieldName: Spells 1062
+FieldName: Spells 1063
+FieldName: Spells 1064
+FieldName: Check Box 323
+FieldName: Check Box 322
+FieldName: Check Box 3067
+FieldName: Check Box 3068
+FieldName: Check Box 3069
+FieldName: Check Box 3070
+FieldName: Check Box 3071
+FieldName: Check Box 3072
+FieldName: Check Box 3073
+FieldName: Spells 1065
+FieldName: Spells 1066
+FieldName: Spells 1067
+FieldName: Spells 1068
+FieldName: Spells 1069
+FieldName: Spells 1070
+FieldName: Spells 1071
+FieldName: Check Box 317
+FieldName: Spells 1072
+FieldName: SlotsTotal 23
+FieldName: SlotsRemaining 23
+FieldName: Spells 1073
+FieldName: Spells 1074
+FieldName: Spells 1075
+FieldName: Spells 1076
+FieldName: Spells 1077
+FieldName: Spells 1078
+FieldName: Spells 1079
+FieldName: Spells 1080
+FieldName: Spells 1081
+FieldName: SlotsTotal 24
+FieldName: SlotsRemaining 24
+FieldName: Spells 1082
+FieldName: Spells 1083
+FieldName: Spells 1084
+FieldName: Spells 1085
+FieldName: Spells 1086
+FieldName: Spells 1087
+FieldName: Spells 1088
+FieldName: Spells 1089
+FieldName: Spells 1090
+FieldName: SlotsTotal 25
+FieldName: SlotsRemaining 25
+FieldName: Spells 1091
+FieldName: Spells 1092
+FieldName: Spells 1093
+FieldName: Spells 1094
+FieldName: Spells 1095
+FieldName: Spells 1096
+FieldName: Spells 1097
+FieldName: Spells 1098
+FieldName: Spells 1099
+FieldName: SlotsTotal 26
+FieldName: SlotsRemaining 26
+FieldName: Spells 10100
+FieldName: Spells 10101
+FieldName: Spells 10102
+FieldName: Spells 10103
+FieldName: Check Box 316
+FieldName: Check Box 3042
+FieldName: Check Box 3043
+FieldName: Check Box 3044
+FieldName: Check Box 3045
+FieldName: Check Box 3046
+FieldName: Check Box 3047
+FieldName: Check Box 3048
+FieldName: Check Box 3049
+FieldName: Check Box 3050
+FieldName: Check Box 3051
+FieldName: Check Box 3052
+FieldName: Spells 10104
+FieldName: Check Box 325
+FieldName: Check Box 324
+FieldName: Check Box 3074
+FieldName: Check Box 3075
+FieldName: Check Box 3076
+FieldName: Check Box 3077
+FieldName: Spells 10105
+FieldName: Spells 10106
+FieldName: Check Box 3078
+FieldName: SlotsTotal 27
+FieldName: SlotsRemaining 27
+FieldName: Check Box 313
+FieldName: Check Box 310
+FieldName: Check Box 3020
+FieldName: Check Box 3021
+FieldName: Check Box 3022
+FieldName: Check Box 3023
+FieldName: Check Box 3024
+FieldName: Check Box 3025
+FieldName: Check Box 3026
+FieldName: Check Box 3027
+FieldName: Check Box 3028
+FieldName: Check Box 3029
+FieldName: Check Box 3030
+FieldName: Spells 10107
+FieldName: Spells 10108
+FieldName: Spells 10109
+FieldName: Spells 101010
+FieldName: Spells 101011
+FieldName: Spells 101012
+FieldName: Check Box 319
+FieldName: Check Box 318
+FieldName: Check Box 3053
+FieldName: Check Box 3054
+FieldName: Check Box 3055
+FieldName: Check Box 3056
+FieldName: Check Box 3057
+FieldName: Check Box 3058
+FieldName: Check Box 3059
+FieldName: Check Box 327
+FieldName: Check Box 326
+FieldName: Check Box 3079
+FieldName: Check Box 3080
+FieldName: Check Box 3081
+FieldName: Check Box 3082
+FieldName: Spells 101013
+FieldName: Check Box 3083
