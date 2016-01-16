@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+	<character>
+		<name>Adeldian</name>
+		<race>
+			<id>11</id>
+			<name>Half-Elf</name>
+			<feat>
+				<name>Darkvision</name>
+				<text>Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+			</feat>
+			<feat>
+				<name>Fey Ancestry</name>
+				<text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
+			</feat>
+			<feat>
+				<name>Languages</name>
+				<text>Common, Elvish, and Sylvan.</text>
+			</feat>
+			<mod>
+				<category>1</category>
+				<type>5</type>
+				<value>2</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>1</type>
+				<value>1</value>
+			</mod>
+			<mod>
+				<category>1</category>
+				<type>4</type>
+				<value>1</value>
+			</mod>
+			<proficiency>100</proficiency>
+			<proficiency>116</proficiency>
+		</race>
+		<class>
+			<id>7</id>
+			<name>Druid</name>
+			<level>6</level>
+			<hd>2</hd>
+			<hdCurrent>0</hdCurrent>
+			<spellAbility>4</spellAbility>
+			<slots>3,4,3,3,0,0,0,0,0,0,</slots>
+			<slotsCurrent>3,1,0,0,0,0,0,0,0,0,</slotsCurrent>
+			<feat>
+				<name>Starting Proficiencies</name>
+				<text>Armor: light armor, medium armor, shields (druids will not wear armor or use shields made of metal)
+	
+	Weapons: clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears
+	
+	Tools: herbalism kit</text>
+				<expanded>0</expanded>
+				<proficiency>110</proficiency>
+				<proficiency>101</proficiency>
+			</feat>
+			<feat>
+				<name>Druidic</name>
+				<text>You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.</text>
+			</feat>
+			<feat>
+				<name>Spellcasting</name>
+				<text>Cantrips:
+	At 1st level, you know two cantrips of your choice from the druid spell list. You learn an additional druid cantrip of your choice at 4th level and another at 10th level. 
+	
+	Preparing and Casting Spells:
+	The Druid table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+	You prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.
+	You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list. 
+	
+	Spellcasting Ability:
+	Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.
+	Spell save DC = 8 + your proficiency bonus + your Wisdom modifier
+	Spell attack modifier = your proficiency bonus + your Wisdom modifier 
+	
+	Ritual Casting:
+	You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared. 
+	
+	Spellcasting Focus:
+	You can use a druidic focus (found in chapter 5) as a spellcasting focus for your druid spells.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Combat Wild Shape (Circle of the Moon)</name>
+				<text>When you choose this circle at 2nd level, you gain the ability to use Wild Shape on your turn as a bonus action, rather than as an action.
+	Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain 1d8 hit points per level of the spell slot expended.</text>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Circle Forms (Circle of the Moon)</name>
+				<text>The rites of your circle grant you the ability to transform into more dangerous animal forms. Starting at 2nd level, you can use your Wild Shape to transform into a beast with a challenge rating as high as 1 (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).
+	Starting at 6th level, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.</text>
+			</feat>
+			<feat>
+				<name>Wild Shape</name>
+				<text>Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.
+	Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table (Player's Handbook, p. 66).
+	At 2nd level, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swimming speed.  At 4th level, you can transform into any beast that has a challenge rating of 1/2 or lower that doesn't have a flying speed.  At 8th level, you can transform into any beast that has a challenge rating of 1 or lower.
+	You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.
+	While you are transformed, the following rules apply.
+	
+	• Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.
+	
+	• When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked unconscious.
+	
+	• You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as call lightning, that you've already cast.
+	
+	• You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.
+	
+	• You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form. </text>
+				<expanded>0</expanded>
+			</feat>
+			<feat>
+				<optional>1</optional>
+				<name>Primal Strike (Circle of the Moon)</name>
+				<text>Starting at 6th level, your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</text>
+			</feat>
+			<proficiency>3</proficiency>
+			<proficiency>4</proficiency>
+			<autolevel>
+				<slots>2,2,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Starting Proficiencies</name>
+					<text>Armor: light armor, medium armor, shields (druids will not wear armor or use shields made of metal)
+	
+	Weapons: clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears
+	
+	Tools: herbalism kit</text>
+					<expanded>0</expanded>
+					<proficiency>110</proficiency>
+					<proficiency>101</proficiency>
+				</feat>
+				<feat>
+					<name>Starting Equipment</name>
+					<text>You begin play with the following equipment, in addition to any equipment provided by your background.
+	
+	• (a) a wooden shield or (b) any simple weapon
+	• (a) a scimitar or (b) any simple melee weapon
+	• Leather armor, an explorer's pack, and a druidic focus
+	
+	Alternatively, you may start with 2d4 x 10 gp and choose your own equipment.</text>
+				</feat>
+				<feat>
+					<name>Druidic</name>
+					<text>You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.</text>
+				</feat>
+				<feat>
+					<name>Spellcasting</name>
+					<text>Cantrips:
+	At 1st level, you know two cantrips of your choice from the druid spell list. You learn an additional druid cantrip of your choice at 4th level and another at 10th level. 
+	
+	Preparing and Casting Spells:
+	The Druid table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+	You prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.
+	You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list. 
+	
+	Spellcasting Ability:
+	Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.
+	Spell save DC = 8 + your proficiency bonus + your Wisdom modifier
+	Spell attack modifier = your proficiency bonus + your Wisdom modifier 
+	
+	Ritual Casting:
+	You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared. 
+	
+	Spellcasting Focus:
+	You can use a druidic focus (found in chapter 5) as a spellcasting focus for your druid spells.</text>
+					<expanded>0</expanded>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>2</level>
+				<slots>2,3,0,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Wild Shape</name>
+					<text>Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.
+	Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table (Player's Handbook, p. 66).
+	At 2nd level, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swimming speed.  At 4th level, you can transform into any beast that has a challenge rating of 1/2 or lower that doesn't have a flying speed.  At 8th level, you can transform into any beast that has a challenge rating of 1 or lower.
+	You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.
+	While you are transformed, the following rules apply.
+	
+	• Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.
+	
+	• When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked unconscious.
+	
+	• You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as call lightning, that you've already cast.
+	
+	• You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.
+	
+	• You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form. </text>
+					<expanded>0</expanded>
+				</feat>
+				<feat>
+					<name>Druid Circle</name>
+					<text>At 2nd level, you choose to identify with a circle of druids: the Circle of the Land or the Circle of the Moon, both detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Circle of the Land</name>
+					<text>Circle of the Land:
+	The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk. As a member of this circle, your magic is influenced by the land where you were initiated into the circle's mysterious rites.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Bonus Cantrip (Circle of the Land)</name>
+					<text>When you choose this domain at 1st level, you gain the light cantrip if you don't already know it.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Natural Recovery (Circle of the Land)</name>
+					<text>Starting at 2nd level, you can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. You can't use this feature again until you finish a long rest
+	For example, when you are a 4th-level druid, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level slot or two 1st-level slots.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Circle of the Moon</name>
+					<text>Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another humanoid creature, let alone another druid.
+	Changeable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Combat Wild Shape (Circle of the Moon)</name>
+					<text>When you choose this circle at 2nd level, you gain the ability to use Wild Shape on your turn as a bonus action, rather than as an action.
+	Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain 1d8 hit points per level of the spell slot expended.</text>
+					<expanded>0</expanded>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Circle Forms (Circle of the Moon)</name>
+					<text>The rites of your circle grant you the ability to transform into more dangerous animal forms. Starting at 2nd level, you can use your Wild Shape to transform into a beast with a challenge rating as high as 1 (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).
+	Starting at 6th level, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.</text>
+					<expanded>0</expanded>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>3</level>
+				<slots>2,4,2,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Circle Spells (Circle of the Land)</name>
+					<text>Your mystical connection to the land infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid. Choose that land — arctic, coast, desert, forest, grassland, mountain, swamp, or Underdark — and consult the associated list of spells.
+	Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Circle of the Land: Arctic</name>
+					<text>At each indicated level, add the listed spells to your druid spell list.  These spells are always prepared and don't count against the number of spells you prepare wach day.
+	
+	3rd — hold person, spike growth
+	5th — sleet storm, slow 
+	7th — freedom of movement, ice storm 
+	9th — commune with nature, cone of cold</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Circle of the Land: Coast</name>
+					<text>At each indicated level, add the listed spells to your druid spell list.  These spells are always prepared and don't count against the number of spells you prepare wach day.
+	
+	3rd—  mirror image, misty step 
+	5th — water breathing, water walk 
+	7th — control water, freedom of movement 
+	9th — conjure elemental, scrying</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Circle of the Land: Desert</name>
+					<text>At each indicated level, add the listed spells to your druid spell list.  These spells are always prepared and don't count against the number of spells you prepare wach day.
+	
+	3rd — blur, silence 
+	5th — create food and water, protection from energy 
+	7th — blight, hallucinatory terrain 
+	9th — insect plague, wall of stone</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Circle of the Land: Forest</name>
+					<text>At each indicated level, add the listed spells to your druid spell list.  These spells are always prepared and don't count against the number of spells you prepare wach day.
+	
+	3rd — barkskin, spider climb 
+	5th — call lightning, plant growth 
+	7th — divination, freedom of movement 
+	9th — commune with nature, tree stride</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Circle of the Land: Grassland</name>
+					<text>At each indicated level, add the listed spells to your druid spell list.  These spells are always prepared and don't count against the number of spells you prepare wach day.
+	
+	3rd — invisibility, pass without trace 
+	5th — daylight, haste 
+	7th — divination, freedom of movement 
+	9th — dream, insect plague</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Circle of the Land: Mountain</name>
+					<text>At each indicated level, add the listed spells to your druid spell list.  These spells are always prepared and don't count against the number of spells you prepare wach day.
+	
+	3rd — spider climb, spike growth 
+	5th — lightning bolt, meld into stone 
+	7th — stone shape, stoneskin 
+	9th — passwall, wall of stone</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Circle of the Land: Swamp</name>
+					<text>At each indicated level, add the listed spells to your druid spell list.  These spells are always prepared and don't count against the number of spells you prepare wach day.
+	
+	3rd — darkness, Melf's acid arrow
+	5th — water walk, stinking cloud
+	7th — freedom of movement, locate creature
+	9th — insect plague, scrying</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Circle of the Land: Underdark</name>
+					<text>At each indicated level, add the listed spells to your druid spell list.  These spells are always prepared and don't count against the number of spells you prepare wach day.
+	
+	3rd — spider climb, web 
+	5th — gaseous form, stinking cloud 
+	7th — greater invisibility, stone shape 
+	9th — cloudkill, insect plague</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>4</level>
+				<slots>3,4,3,0,0,0,0,0,0,0,</slots>
+				<feat>
+					<name>Ability Score Improvement</name>
+					<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+	If your DM uses the optional Feats, you can instead take a feat.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>5</level>
+				<slots>3,4,3,2,0,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>6</level>
+				<slots>3,4,3,3,0,0,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Nature's Stride (Circle of the Land)</name>
+					<text>Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
+	In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Primal Strike (Circle of the Moon)</name>
+					<text>Starting at 6th level, your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>7</level>
+				<slots>3,4,3,3,1,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>8</level>
+				<slots>3,4,3,3,2,0,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>9</level>
+				<slots>3,4,3,3,3,1,0,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>10</level>
+				<slots>4,4,3,3,3,2,0,0,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Nature's Ward (Circle of the Land)</name>
+					<text>When you reach 10th level, you can't be charmed or frightened by elementals or fey, and you are immune to poison and disease.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Elemental Wild Shape (Circle of the Moon)</name>
+					<text>At 10th level, you can expend two uses of Wild Shape at the same time to transform into an air elemental, an earth elemental, a fire elemental, or a water elemental.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>11</level>
+				<slots>4,4,3,3,3,2,1,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>12</level>
+				<slots>4,4,3,3,3,2,1,0,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>13</level>
+				<slots>4,4,3,3,3,2,1,1,0,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>14</level>
+				<slots>4,4,3,3,3,2,1,1,0,0,</slots>
+				<feat>
+					<optional>1</optional>
+					<name>Nature's Sanctuary (Circle of the Land)</name>
+					<text>When you reach 14th level, creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your druid spell save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.
+	The creature is aware of this effect before it makes its attack against you.</text>
+				</feat>
+				<feat>
+					<optional>1</optional>
+					<name>Thousand Forms (Circle of the Moon)</name>
+					<text>By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the alter self spell at will.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>15</level>
+				<slots>4,4,3,3,3,2,1,1,1,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>16</level>
+				<slots>4,4,3,3,3,2,1,1,1,0,</slots>
+			</autolevel>
+			<autolevel>
+				<level>17</level>
+				<slots>4,4,3,3,3,2,1,1,1,1,</slots>
+			</autolevel>
+			<autolevel>
+				<level>18</level>
+				<slots>4,4,3,3,3,3,1,1,1,1,</slots>
+				<feat>
+					<name>Timeless Body</name>
+					<text>Starting at 18th level, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.</text>
+				</feat>
+				<feat>
+					<name>Beast Spells</name>
+					<text>Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components.</text>
+				</feat>
+			</autolevel>
+			<autolevel>
+				<level>19</level>
+				<slots>4,4,3,3,3,3,2,1,1,1,</slots>
+			</autolevel>
+			<autolevel>
+				<level>20</level>
+				<spellSlotsOptional>1</spellSlotsOptional>
+				<slots>4,4,3,3,3,3,2,2,1,1,</slots>
+				<feat>
+					<name>Archdruid</name>
+					<text>At 20th level, you can use your Wild Shape an unlimited number of times.
+	Additionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape.</text>
+				</feat>
+			</autolevel>
+		</class>
+		<background>
+			<id>9</id>
+			<name>Hermit</name>
+			<feat>
+				<name>Discovery</name>
+				<text>The quiet seclusion of your extended hermitage gave you access to a unique and powerful discovery. The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, the deities, the powerful beings of the outer planes, or the forces of nature. It could be a site that no one else has ever seen. You might have uncovered a fact that has long been forgotten, or unearthed some relic of the past that could rewrite history. It might be information that would be damaging to the people who or consigned you to exile, and hence the reason for your return to society.
+Work with your DM to determine the details of your discovery and its impact on the campaign.</text>
+			</feat>
+			<feat>
+				<name>Life of Seclusion</name>
+				<text>I retreated from society after a life-altering event.</text>
+			</feat>
+			<feat>
+				<name>Personality Trait</name>
+				<text>I am oblivious to etiquette and social expectations.</text>
+			</feat>
+			<feat>
+				<name>Ideal</name>
+				<text>Free Thinking: Inquiry and curiosity are the pillars of progress.</text>
+			</feat>
+			<feat>
+				<name>Bond</name>
+				<text>I'm still seeking the enlightenment that I pursued in my seclusion and it still eludes me.</text>
+			</feat>
+			<feat>
+				<name>Flaw</name>
+				<text>I'd risk too much to uncover a lost bit of knowledge.</text>
+			</feat>
+			<proficiency>114</proficiency>
+			<proficiency>109</proficiency>
+		</background>
+		<xp>7775</xp>
+		<abilities>10,13,10,13,17,10,</abilities>
+		<hpMax>33</hpMax>
+		<hpCurrent>18</hpCurrent>
+		<hpTemp>60</hpTemp>
+		<feat>
+			<name>Alert</name>
+			<text>Always on the lookout for danger, you gain the following 
+
+• You gain a +5 bonus to initiative.
+
+• You can't be surprised while you are conscious.
+
+• Other creatures don't gain advantage on attack rolls against you as a result of being hidden from you.</text>
+			<mod>
+				<type>12</type>
+				<value>5</value>
+			</mod>
+		</feat>
+		<item>
+			<name>Wand of Magic Missiles</name>
+			<text>Rarity: Uncommon
+This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
+The wand regains 1d6+1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
+
+Source: Dungeon Master's Guide p. 211</text>
+			<type>10</type>
+			<weight>1</weight>
+			<roll>1d6+1</roll>
+			<roll>(1d4+1)+(1d4+1)+(1d4+1)</roll>
+			<roll>(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)</roll>
+			<roll>(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)</roll>
+			<roll>(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)</roll>
+			<roll>(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)</roll>
+			<roll>(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)</roll>
+			<roll>(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)+(1d4+1)</roll>
+		</item>
+		<item>
+			<name>Quarterstaff</name>
+			<text>Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property — the damage when the weapon is used with two hands to make a melee attack.
+
+Cost: 2 sp
+
+Source: Player's Handbook p. 149</text>
+			<type>5</type>
+			<slot>2</slot>
+			<weight>4</weight>
+			<damage1H>1d6</damage1H>
+			<damage2H>1d8</damage2H>
+			<damageType>1</damageType>
+			<weaponProperty>512</weaponProperty>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Sling</name>
+			<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way.
+
+Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
+
+Cost: 1 sp
+
+Source: Player's Handbook p. 149</text>
+			<type>6</type>
+			<weight>0</weight>
+			<damage1H>1d4</damage1H>
+			<damageType>1</damageType>
+			<weaponProperty>1</weaponProperty>
+			<weaponRange>30</weaponRange>
+			<weaponLongRange>120</weaponLongRange>
+			<mod>
+				<type>1</type>
+			</mod>
+		</item>
+		<item>
+			<name>Studded Leather Armor</name>
+			<text>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.
+
+Cost: 45 gp
+
+Source: Player's Handbook p. 144</text>
+			<type>1</type>
+			<slot>5</slot>
+			<weight>13</weight>
+			<ac>12</ac>
+		</item>
+		<item>
+			<name>Explorer's Pack</name>
+			<text>Includes:
+• a backpack
+• a bedroll
+• a mess kit
+• a tinderbox
+• 10 torches
+• 10 days of rations
+• a waterskin
+• 50 feet of hempen rope
+
+Cost: 10 gp
+
+Source: Player's Handbook p. 151</text>
+			<weight>59</weight>
+		</item>
+		<item>
+			<name>Gold (gp)</name>
+			<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for a day, a flask of lamp oil, or a night's rest in a poor inn.
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player's Handbook p. 143</text>
+			<type>15</type>
+			<quantity>164</quantity>
+			<weight>0.02</weight>
+		</item>
+		<item>
+			<name>Healer's Kit</name>
+			<text>This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.
+
+Cost: 5 gp
+
+Source: Player's Handbook p. 151</text>
+			<weight>3</weight>
+		</item>
+		<item>
+			<name>Herbalism Kit</name>
+			<text>This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing.
+
+Cost: 5 gp
+
+Source: Player's Handbook p. 154</text>
+			<slot>1</slot>
+			<weight>3</weight>
+		</item>
+		<item>
+			<name>Druidic Focus</name>
+			<text>A bear's tooth necklace. A Druid can use this as a spellcasting focus.</text>
+			<slot>1</slot>
+			<weight>0</weight>
+		</item>
+		<tracker>
+			<label>Wild Shape</label>
+			<resetType>1</resetType>
+			<value>2</value>
+			<formula>2</formula>
+		</tracker>
+		<tracker>
+			<label>Wand of Magic Missiles</label>
+			<formula>7</formula>
+		</tracker>
+		<imageData>
+			<uniqueID>1182</uniqueID>
+		</imageData>
+	</character>
+</pc>
