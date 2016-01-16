@@ -35,9 +35,22 @@ def character_info(xml):
 
   return level
 
-def combat_info(xml):
-    add_xml_data('HPMax','./character/hpMax')
+def background_info(xml):
 
+  feats = xml.findall('./character/background/feat')
+
+  for feat in feats:
+    if feat.find('name').text == 'Personality Trait':
+      add_raw_data('PersonalityTraits ',feat.find('text').text)
+    if feat.find('name').text == 'Ideal':
+      add_raw_data('Ideals',feat.find('text').text)
+    if feat.find('name').text == 'Bond':
+      add_raw_data('Bonds',feat.find('text').text)
+    if feat.find('name').text == 'Flaw':
+      add_raw_data('Flaws',feat.find('text').text)
+
+def combat_info(xml):
+  add_xml_data('HPMax','./character/hpMax')
 
 def ability_scores_and_modifiers(xml):
   abilities = xml.find('./character/abilities').text.split(',')
@@ -81,31 +94,37 @@ def skill_modifiers(ability_modifiers,proficiency_modifier):
   race_proficiencies = xml.findall('./character/race/proficiency')
   class_proficiencies = xml.findall('./character/class/feat/proficiency')
   background_proficiencies = xml.findall('./character/background/proficiency')
+  skill_modifiers = list(abilities_for_skills)
   filled = []
   for i in range(0,len(skills)):
     for proficiency in race_proficiencies:
       if int(proficiency.text) - 100 == i:
-        add_raw_data(skills[i], '+' + str(int(ability_modifiers[abilities_for_skills[i]]) + int(proficiency_modifier)))
+        skill_modifiers[i] = str(int(ability_modifiers[abilities_for_skills[i]]) + int(proficiency_modifier))
+        add_raw_data(skills[i], '+' + skill_modifiers[i])
         add_raw_data('Check Box ' + str(i+23),'Yes')
         filled.append(i)
     for proficiency in class_proficiencies:
       if int(proficiency.text) - 100 == i:
-        add_raw_data(skills[i], '+' + str(int(ability_modifiers[abilities_for_skills[i]]) + int(proficiency_modifier)))
+        skill_modifiers[i] = str(int(ability_modifiers[abilities_for_skills[i]]) + int(proficiency_modifier))
+        add_raw_data(skills[i], '+' + skill_modifiers[i])        
         add_raw_data('Check Box ' + str(i+23),'Yes')
         filled.append(i)
     for proficiency in background_proficiencies:
       if int(proficiency.text) - 100 == i:
-        add_raw_data(skills[i], '+' + str(int(ability_modifiers[abilities_for_skills[i]]) + int(proficiency_modifier)))
+        skill_modifiers[i] = str(int(ability_modifiers[abilities_for_skills[i]]) + int(proficiency_modifier))
+        add_raw_data(skills[i], '+' + skill_modifiers[i])        
         add_raw_data('Check Box ' + str(i+23),'Yes')
         filled.append(i)
 
   # skills without proficiency
   for i in range(0,len(skills)):
     if not i in filled:
-        add_raw_data(skills[i], '+' + str(int(ability_modifiers[abilities_for_skills[i]])))
+        skill_modifiers[i] = str(int(ability_modifiers[abilities_for_skills[i]]))
+        add_raw_data(skills[i], '+' + skill_modifiers[i])
 
   # passive perception
-  
+  add_raw_data('Passive',10 + int(skill_modifiers[11]))
+
 def saving_throws(ability_modifiers,proficiency_modifier):
   #saving throws
   st_proficiencies = xml.findall('./character/class/proficiency')
@@ -125,6 +144,9 @@ def saving_throws(ability_modifiers,proficiency_modifier):
     if not i in st_filled:
       add_raw_data(st_fields[i], '+' + str(int(ability_modifiers[i])))
 
+def features_and_traits(xml):
+  # Feat+Traits - page 2
+  add_raw_data('Features and Traits',xml.find('./character/feat/name').text + '\r\n' + xml.find('./character/feat/text').text)
 
 def process_xml(file):
   global fields, xml
@@ -135,11 +157,16 @@ def process_xml(file):
     xml=ET.fromstring(data)
 
   level = character_info(xml)
+  background_info(xml)
   combat_info(xml)
   ability_modifiers = ability_scores_and_modifiers(xml)
   proficiency_modifier = proficiency(level)
   skill_modifiers(ability_modifiers,proficiency_modifier)
   saving_throws(ability_modifiers,proficiency_modifier)
+  # TODO: Add all feats, not just first. Can work out how many per page based on length.
+  # TODO: Calculate bonuses given from feats.
+  features_and_traits(xml)
+
 
 def form_fill(fields):
 
