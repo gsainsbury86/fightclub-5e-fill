@@ -13,6 +13,8 @@ xml_file = name + ".xml"
 pdf_file = "Blank_Character_Sheet.pdf"
 tmp_file = "tmp.fdf"
 output_folder = './output/'
+player_name = 'George'
+alignment = 'Lawful Good'
 
 def add_xml_data(field_name, xml_find_string):
   global fields, xml
@@ -29,11 +31,13 @@ def append_custom_data(field_name, data, delimiter):
 def character_info(xml):
   global level, player_class
   # TODO: multiclass support
-  level = str(xml.find('./character/class/level').text)
+  # hack: <level> node is missing for level 1s.
+  level = str(xml.find('./character/class/level').text) if not xml.find('./character/class/level') == None else 1
   player_class = str(xml.find('./character/class/name').text)
   
-  add_custom_data('ClassLevel','Level ' + level + ' ' + player_class)
-
+  add_custom_data('ClassLevel','Level ' + str(level) + ' ' + player_class)
+  add_custom_data('PlayerName',player_name)
+  add_custom_data('Alignment',alignment)
 
 def background_info(xml):
 
@@ -60,7 +64,7 @@ def background_info(xml):
 
 def combat_info(xml,ability_modifiers):
   add_custom_data('Initiative', ('+' if int(ability_modifiers[1]) >= 0 else '') + str(ability_modifiers[1]))
-  #TODO: add default speed
+  #hack: speed is not included if default (30 ft)
   add_custom_data('Speed', '30 ft')
 
 def ability_scores_and_modifiers(xml):
@@ -70,7 +74,9 @@ def ability_scores_and_modifiers(xml):
 
   for mod in race_modifiers:
     if mod.find('category').text == '1':
-      abilities[int(mod.find('type').text)] = int(abilities[int(mod.find('type').text)]) + int(mod.find('value').text)
+      # hack: Strength missing <type> node
+      mod_index = int(mod.find('type').text) if not mod.find('type') == None else 0
+      abilities[mod_index] = int(abilities[mod_index]) + int(mod.find('value').text)
 
   for i in range(0,6):
     ability_modifiers.append((int(abilities[i]) - 10) // 2)
@@ -160,11 +166,20 @@ def features_and_traits(xml):
   feat_text = ''
   feats = xml.findall('./character/class/feat') + xml.findall('./character/race/feat')
   for feat in feats:
+    # hack: speed feats
     if 'Speed' in feat.find('name').text:
-      append_custom_data('Speed',re.findall(r"[0-9]+",feat.find('text').text)[0] +'(' + re.findall(r'([a-zA-Z]*)ing',feat.find('text').text)[0]+ ')','/\r\n')
+      # Group 1 captures words that end double-letter ing, group 3 captures words that just end in ing
+      speed_type = re.findall(r'([a-z]*([a-z]))\2{1}ing|([a-z]*)ing',feat.find('text').text)
+      append_custom_data('Speed',re.findall(r"[0-9]+",feat.find('text').text)[0] +'ft (' + (speed_type[0][0] if speed_type[0][0] else speed_type[0][2]) + ')',' /\r\n')
+
+    # hack: language proficiencies
+    elif 'Languages' in feat.find('name').text:
+      add_custom_data('ProficienciesLang',feat.find('text').text)
+
     else:
       feat_text+= feat.find('name').text + ':\r\n' + feat.find('text').text.replace('•','\r\n•')+"\r\n"
-  add_custom_data('Features and Traits',feat_text)
+
+  add_custom_data('Features and Traits',feat_text.strip())
 
 def simple_fields(xml):
   with open('simple-field-mapping.csv', newline='') as csvfile:

@@ -1,8 +1,6 @@
 name,field,path
 Character Name,CharacterName,./character/name
 Character Name Page 2,CharacterName 2,./character/name
-Level,,./character/class/level
-Class,,./character/class/name
 Background,Background,./character/background/name
 Race,Race ,./character/race/name
 Max HP,HPMax,./character/hpMax

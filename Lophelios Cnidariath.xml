@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="5">
+<character><name>Lophelios Cnidariath</name><race><id>1324</id><name>Triton</name><feat><name>Swim Speed</name><text>You have a flying speed of 30 feet.</text></feat><feat><name>Amphibious</name><text>You can breathe air and water.</text></feat><feat><name>Control Air and Water</name><text>A child of the sea, you can call on the magic of elemental air and water. You can cast fog cloud with this trait. Starting at 3rd level, you can cast gust of wind with it, and starting at 5th level, you can also cast wall of water with it. Once you cast a spell with this trait, you can&#39;t do so again until you finish a long rest. Charisma is your spellcasting ability for these spells.</text></feat><feat><name>Emissary of the Sea</name><text>Aquatic beasts have an extraordinary affinity with your people. You can communicate simple ideas with beasts that can breathe water. They can understand the meaning of your words, though you have no special ability to understand them in return.</text></feat><feat><name>Guardians of the Depths</name><text>Adapted to even the most extreme ocean depths, you have resistance to cold damage, and you ignore any of the drawbacks caused by a deep, underwater environment.</text></feat><feat><name>Languages</name><text>You can speak, read, and write Common and Primordial.</text></feat><mod><category>1</category><value>1</value></mod><mod><category>1</category><type>5</type><value>1</value></mod><mod><category>1</category><type>2</type><value>1</value></mod></race>
+<class><id>1193</id><name>Paladin</name><hd>3</hd><hdCurrent>2</hdCurrent><spellAbility>5</spellAbility><slots>0,0,0,0,0,0,0,0,0,0,</slots><slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent><spell><name>Fog Cloud</name><level>1</level><school>2</school><time>1 action</time><range>120 feet</range><components>V, S</components><duration>Concentration, up to 1 hour</duration><text>You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
+
+At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st.</text><sclass>Cleric (Tempest)</sclass><sclass>Druid</sclass><sclass>Ranger</sclass><sclass>Sorcerer</sclass><sclass>Wizard</sclass></spell><feat><name>Divine Sense</name><text>The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.
+    You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses.</text></feat><feat><name>Lay on Hands</name><text>Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level x 5.
+    As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.
+    Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.
+    This feature has no effect on undead and constructs.</text></feat><proficiency>107</proficiency><proficiency>5</proficiency><proficiency>113</proficiency><proficiency>4</proficiency><autolevel><slots>0,0,0,0,0,0,0,0,0,0,</slots><feat><name>Starting Proficiencies</name><text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.
+Armor: light armor, medium armor, heavy armor, shields
+Weapons: simple weapons, martial weapons
+Tools: none
+Skills: Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion</text></feat><feat><name>Starting Equipment</name><text>You start with the following items, plus anything provided by your background.
+
+• (a) a martial weapon and a shield or (b) two martial weapons
+• (a) five javelins or (b) any simple melee weapon
+• (a) a priest&#39;s pack or (b) an explorer&#39;s pack
+• Chain mail and a holy symbol
+
+Alternatively, you may start with 5d4 x 10 gp to buy your own equipment.</text></feat><feat><name>Divine Sense</name><text>The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.
+    You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses.</text></feat><feat><name>Lay on Hands</name><text>Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level x 5.
+    As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.
+    Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.
+    This feature has no effect on undead and constructs.</text></feat></autolevel>
+<autolevel><level>2</level><slots>0,2,0,0,0,0,0,0,0,0,</slots><feat><name>Divine Smite</name><text>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon&#39;s damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.</text></feat><feat><optional>1</optional><name>Fighting Style: Close Quarters Shooter</name><text>When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks.</text></feat><feat><optional>1</optional><name>Fighting Style: Defense</name><text>While you are wearing armor, you gain a +1 bonus to AC.</text></feat><feat><optional>1</optional><name>Fighting Style: Dueling</name><text>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</text></feat><feat><optional>1</optional><name>Fighting Style: Great Weapon Fighting</name><text>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.</text></feat><feat><optional>1</optional><name>Fighting Style: Mariner</name><text>As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC.</text></feat><feat><optional>1</optional><name>Fighting Style: Protection</name><text>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</text></feat><feat><optional>1</optional><name>Fighting Style: Tunnel Fighter</name><text>As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.</text></feat><feat><name>Spellcasting</name><text>By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. See chapter 10 for the general rules of spellcasting and chapter 11 for the paladin spell list.
+
+Preparing and Casting Spells
+The Paladin table shows how many spell slots you have to cast your spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell&#39;s level or higher. You regain all expended spell slots when you finish a long rest.
+    You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.
+    For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn&#39;t remove it from your list of prepared spells.
+    You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
+
+Spellcasting Ability
+Charisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one.
+    Spell save DC = 8 + your proficiency bonus + your Charisma modifier
+    Spell attack modifier = your proficiency bonus + your Charisma modifier
+
+Spellcasting Focus
+You can use a holy symbol (found in chapter 5) as a spellcasting focus for your paladin spells.</text></feat></autolevel>
+<autolevel><level>3</level><slots>0,3,0,0,0,0,0,0,0,0,</slots><feat><name>Divine Health</name><text>By 3rd level, the divine magic flowing through you makes you immune to disease.</text></feat><feat><name>Sacred Oath</name><text>When you reach 3rd level, you swear the oath that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose the Oath of Devotion, the Oath of the Ancients, the Oath of the Crown, or the Oath of Vengeance, all detailed at the end of the c1ass description.
+    Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature.</text></feat><feat><optional>1</optional><name>Sacred Oath: Oath of the Ancients</name><text>The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things - leaves, antlers, or flowers - to reflect their commitment to preserving life and light in the world.
+
+Tenets of the Ancients
+
+The tenets of the Oath of the Ancients have been preserved for uncounted centuries. This oath emphasizes the principles of good above any concerns of law or chaos. Its four central principles are simple.
+    Kindle the Light. Through your acts of mercy, kindness, and forgiveness, kindle the light of hope in the world, beating back despair.
+    Shelter the Light. Where there is good, beauty, love, and laughter in the world, stand against the wickedness that would swallow it. Where life flourishes, stand against the forces that would render it barren.
+    Preserve Your Own Light. Delight in song and laughter, in beauty and art. If you allow the light to die in your own heart, you can&#39;t preserve it in the world.
+    Be the Light. Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds.</text></feat><feat><optional>1</optional><name>Sacred Oath: Oath of Devotion</name><text>The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods&#39; tenets as the measure of their devotion. They hold angels - the perfect servants of good - as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.
+
+Tenets of Devotion
+
+Though the exact words and strictures of the Oath of Devotion vary, paladins of this oath share these tenets.
+    Honesty. Don&#39;t lie or cheat. Let your word be your promise.
+    Courage. Never fear to act, though caution is wise.
+    Compassion. Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.
+    Honor. Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible while causing the least amount of harm.
+    Duty. Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you.</text></feat><feat><optional>1</optional><name>Sacred Oath: Oath of Vengeance</name><text>The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. When evil forces slaughter helpless villagers, when an entire people turns against the will of the gods, when a thieves&#39; guild grows too violent and powerful, when a dragon rampages through the countryside - at times like these, paladins arise and swear an Oath of Vengeance to set right that which has gone wrong. To these paladins - sometimes called avengers or dark knights - their own purity is not as important as delivering justice.
+
+Tenets of Vengeance: The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve around punishing wrongdoers by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice upon those who do evil, so the paladins are often neutral or lawful neutral in alignment. The core principles of the tenets are brutally simple.
+    Fight the Greater Evil. Faced with a choice of fighting my sworn foes or combating a lesser evil. I choose the greater evil.
+    No Mercy for the Wicked. Ordinary foes might win my mercy, but my sworn enemies do not.
+    By Any Means Necessary. My qualms can&#39;t get in the way of exterminating my foes.
+    Restitution. If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds.</text></feat><feat><optional>1</optional><name>Sacred Oath: Oathbreaker</name><text>An Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some dark ambition or serve an evil power. Whatever light burned in the paladin&#39;s heart has been extinguished. Only darkness remains.
+    A paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.</text></feat><feat><optional>1</optional><name>Sacred Oath: Oath of the Crown</name><text>The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or sovereign, and undergo their oath as part of their admission to the order&#39;s ranks.
+
+Tenets of the Crown:
+    The tenets of the Oath of the Crown are often set by the sovereign to which their oath is sworn, but generally emphasize the following tenets.
+
+Law: The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected.
+
+Loyalty: Your word is your bond. Without loyalty, oaths and laws are meaningless.
+
+Courage: You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don&#39;t act, then who will?
+
+Responsibility: You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations. </text></feat><feat><optional>1</optional><name>Oath of the Ancients Channel Divinity: Nature&#39;s Wrath</name><text>You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be restrained. While restrained by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.</text></feat><feat><optional>1</optional><name>Oath of the Ancients Channel Divinity: Turn the Faithless</name><text>You can use your Channel Divinity to utter ancient words that are painful for fey and fiends to hear. As an action, you present your holy symbol, and each fey or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.
+    A turned creature must spend its turns trying to move as far away from you as it can, and it can&#39;t willingly move to a space within 30 feet of you. It also can&#39;t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there&#39;s nowhere to move, the creature can use the Dodge action.
+    If the creature&#39;s true form is concealed by an illusion, shapeshifting, or other effect, that form is revealed while it is turned.</text></feat><feat><optional>1</optional><name>Oath of the Ancients: Oath Spells</name><text>You gain oath spells at the paladin levels listed.
+
+3rd - ensnaring strike, speak with animals
+
+5th - moonbeam, misty step
+
+9th - plant growth, protection from energy
+
+13th - ice storm, stoneskin
+
+17th - commune with nature, tree stride</text></feat><feat><optional>1</optional><name>Oath of Devotion Channel Divinity: Sacred Weapon</name><text>As an action, you can imbue one weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (with a minimum bonus of +1). The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that. If the weapon is not already magical, it becomes magical for the duration.
+    You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</text></feat><feat><optional>1</optional><name>Oath of Devotion Channel Divinity: Turn the Unholy</name><text>As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
+    A turned creature must spend its turns trying to move as far away from you as it can, and it can&#39;t willingly move to a space within 30 feet of you. It also can&#39;t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there&#39;s nowhere to move, the creature can use the Dodge action.</text></feat><feat><optional>1</optional><name>Oath of Devotion: Oath Spells</name><text>You gain oath spells at the paladin levels listed.
+
+3rd - protection from evil and good, sanctuary
+
+5th - lesser restoration, zone of truth
+
+9th - beacon of hope, dispel magic
+
+13th - freedom of movement, guardian of faith
+
+17th - commune, flame strike</text></feat><feat><optional>1</optional><name>Oath of Vengeance Channel Divinity: Abjure Enemy</name><text>As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being frightened. Fiends and undead have disadvantage on this saving throw.
+    On a failed save, the creature is frightened for 1 minute or until it takes any damage. While frightened, the creature&#39;s speed is 0, and it can&#39;t benefit from any bonus to its speed.
+    On a successful save, the creature&#39;s speed is halved for 1 minute or until the creature takes any damage.</text></feat><feat><optional>1</optional><name>Oath of Vengeance Channel Divinity: Vow of Enmity</name><text>As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls unconscious.</text></feat><feat><optional>1</optional><name>Oath of Vengeance: Oath Spells</name><text>You gain oath spells at the paladin levels listed.
+
+3rd - bane, hunter&#39;s mark
+
+5th - hold person, misty step
+
+9th - haste, protection from energy
+
+13th - banishment, dimension door
+
+17th - hold monster, scrying</text></feat><feat><optional>1</optional><name>Oathbreaker: Oathbreaker Spells</name><text>You gain oathbreaker spells at the paladin levels listed.
+
+3rd - hellish rebuke, inflict wounds
+
+5th - crown of madness, darkness
+
+9th - animate dead, bestow curse
+
+13th - blight, confusion
+
+17th - contagion, dominate person</text></feat><feat><optional>1</optional><name>Oathbreaker Channel Divinity: Control Undead</name><text>As an action, the paladin targets one undead creature he or she can see within 30 feet of him or her. The target must make a Wisdom saving throw. On a failed save, the target must obey the paladin&#39;s commands for the next 24 hours, or until the paladin uses this Channel Divinity option again. An undead whose challenge rating is equal to or greater than the paladin&#39;s level is immune to this effect.</text></feat><feat><optional>1</optional><name>Oathbreaker Channel Divinity: Dreadful Aspect</name><text>As an action, the paladin channels the darkest emotions and focuses them into a burst of magical menace. Each creature of the paladin&#39;s choice within 30 feet of the paladin must make a Wisdom saving throw if it can see the paladin. On a failed save, the target is frightened of the paladin for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from the paladin, it can attempt another Wisdom saving throw to end the effect on it.</text></feat><feat><optional>1</optional><name>Oath of the Crown: Oath Spells</name><text>    You gain oath spells at the paladin levels listed.
+
+3rd - command, compelled duel
+
+5th - warding bond, zone of truth
+
+9th - aura of vitality, spirit guardians
+
+13th - banishment, guardian of faith
+
+17th - circle of power, geas</text></feat><feat><optional>1</optional><name>Oath of the Crown Channel Divinity: Champion Challenge</name><text>You issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can&#39;t willingly move more than 30 feet away from you. This effect ends on the creature if you are incapacitated or die or if the creature is moved more than 30 feet away from you.</text></feat><feat><optional>1</optional><name>Oath of the Crown Channel Divinity: Turn the Tide</name><text>As a bonus action, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 feet of you regains hit points equal to 1d6 + your Charisma modifier (minimum of 1) if it has no more than half of its hit points.</text></feat></autolevel>
+<autolevel><level>4</level><slots>0,3,0,0,0,0,0,0,0,0,</slots><feat><name>Ability Score Improvement</name><text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&#39;t increase an ability score above 20 using this feature.
+    If your DM allows the use of feats, you may instead take a feat.</text></feat></autolevel>
+<autolevel><level>5</level><slots>0,4,2,0,0,0,0,0,0,0,</slots><feat><name>Extra Attack</name><text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text></feat></autolevel>
+<autolevel><level>6</level><slots>0,4,2,0,0,0,0,0,0,0,</slots><feat><name>Aura of Protection</name><text>Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.
+    At 18th level, the range of this aura increases to 30 feet.</text></feat></autolevel>
+<autolevel><level>7</level><slots>0,4,3,0,0,0,0,0,0,0,</slots><feat><optional>1</optional><name>Oath of the Ancients: Aura of Warding</name><text>Beginning at 7th level, ancient magic lies so heavily upon you that it forms an eldritch ward. You and friendly creatures within 10 feet of you have resistance to damage from spells.
+    At 18th level, the range of this aura increases to 30 feet.</text></feat><feat><optional>1</optional><name>Oath of Devotion: Aura of Devotion</name><text>Starting at 7th level, you and friendly creatures within 10 feet of you can&#39;t be charmed while you are conscious.
+    At 18th level, the range of this aura increases to 30 feet.</text></feat><feat><optional>1</optional><name>Oath of Vengeance: Relentless Avenger</name><text>By 7th level, your supernatural focus helps you close off a foe&#39;s retreat. When you hit a creature with an opportunity attack, you can move up to half your speed immediately after the attack and as part of the same reaction. This movement doesn&#39;t provoke opportunity attacks.</text></feat><feat><optional>1</optional><name>Oathbreaker: Aura of Hate</name><text>Starting at 7th level, the paladin, as well any fiends and undead within 10 feet of the paladin, gains a bonus to melee weapon damage rolls equal to the paladin&#39;s Charisma modifier (minimum of +1). A creature can benefit from this feature from only one paladin at a time.
+    At 18th level, the range of this aura increases to 30 feet.</text></feat><feat><optional>1</optional><name>Oath of the Crown: Divine Allegiance</name><text>Starting at 7th level, when a creature within 5 feet of you takes damage, you can use your reaction to magically substitute your own health for that of the target creature, causing that creature not to take the damage. Instead, you take the damage. This damage to you can&#39;t be reduced or prevented in any way.</text></feat></autolevel>
+<autolevel><level>8</level><slots>0,4,3,0,0,0,0,0,0,0,</slots><feat><name>Ability Score Improvement</name><text>When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&#39;t increase an ability score above 20 using this feature.
+    If your DM allows the use of feats, you may instead take a feat.</text></feat></autolevel>
+<autolevel><level>9</level><slots>0,4,3,2,0,0,0,0,0,0,</slots></autolevel>
+<autolevel><level>10</level><slots>0,4,3,2,0,0,0,0,0,0,</slots><feat><name>Aura of Courage</name><text>Starting at 10th level, you and friendly creatures within 10 feet of you can&#39;t be frightened while you are conscious.
+    At 18th level, the range of this aura increases to 30 feet.</text></feat></autolevel>
+<autolevel><level>11</level><slots>0,4,3,3,0,0,0,0,0,0,</slots><feat><name>Improved Divine Smite</name><text>By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite.</text></feat></autolevel>
+<autolevel><level>12</level><slots>0,4,3,3,0,0,0,0,0,0,</slots><feat><name>Ability Score Improvement</name><text>When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&#39;t increase an ability score above 20 using this feature.
+    If your DM allows the use of feats, you may instead take a feat.</text></feat></autolevel>
+<autolevel><level>13</level><slots>0,4,3,3,1,0,0,0,0,0,</slots></autolevel>
+<autolevel><level>14</level><slots>0,4,3,3,1,0,0,0,0,0,</slots><feat><name>Cleansing Touch</name><text>Beginning at 14th level, you can use your action to end one spell on yourself or on one willing creature that you touch.
+    You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest.</text></feat></autolevel>
+<autolevel><level>15</level><slots>0,4,3,3,2,0,0,0,0,0,</slots><feat><optional>1</optional><name>Oath of the Ancients: Undying Sentinel</name><text>Starting at 15th level, when you are reduced to 0 hit points and are not killed outright, you can choose to drop to 1 hit point instead. Once you use this ability, you can&#39;t use it again until you finish a long rest.
+    Additionally, you suffer none of the drawbacks of old age, and you can&#39;t be aged magically.</text></feat><feat><optional>1</optional><name>Oath of Devotion: Purity of Spirit</name><text>Beginning at 15th level, you are always under the effects of a protection from evil and good spell.</text></feat><feat><optional>1</optional><name>Oath of Vengeance: Soul of Vengeance</name><text>Starting at 15th level, the authority with which you speak your Vow of Enmity gives you greater power over your foe. When a creature under the effect of your Vow of Enmity makes an attack, you can use your reaction to make a melee weapon attack against that creature if it is within range.</text></feat><feat><optional>1</optional><name>Oathbreaker: Supernatural Resistance</name><text>At 15th level, the paladin gains resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</text></feat><feat><optional>1</optional><name>Oath of the Crown: Unyielding Spirit</name><text>Starting at 15th level, you have advantage on saving throws to avoid becoming paralyzed or stunned.</text></feat></autolevel>
+<autolevel><level>16</level><slots>0,4,3,3,2,0,0,0,0,0,</slots><feat><name>Ability Score Improvement</name><text>When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&#39;t increase an ability score above 20 using this feature.
+    If your DM allows the use of feats, you may instead take a feat.</text></feat></autolevel>
+<autolevel><level>17</level><slots>0,4,3,3,3,1,0,0,0,0,</slots></autolevel>
+<autolevel><level>18</level><slots>0,4,3,3,3,1,0,0,0,0,</slots><feat><name>Aura of Protection Improvement</name><text>At 18th level, the range of your Aura of Protection increases to 30 feet.</text></feat></autolevel>
+<autolevel><level>19</level><slots>0,4,3,3,3,2,0,0,0,0,</slots><feat><name>Ability Score Improvement</name><text>When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&#39;t increase an ability score above 20 using this feature.
+    If your DM allows the use of feats, you may instead take a feat.</text></feat></autolevel>
+<autolevel><level>20</level><slots>0,4,3,3,3,2,0,0,0,0,</slots><feat><optional>1</optional><name>Oath of the Ancients: Elder Champion</name><text>At 20th level, you can assume the form of an ancient force of nature, taking on an appearance you choose. For example, your skin might turn green or take on a bark-like texture, your hair might become leafy or mosslike, or you might sprout antlers or a lion-like mane.
+    Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:
+
+• At the start of each of your turns, you regain 10 hit points.
+• Whenever you cast a paladin spell that has a casting time of 1 action, you can cast it using a bonus action instead.
+• Enemy creatures within 10 feet of you have disadvantage on saving throws against your paladin spells and Channel Divinity options.
+
+    Once you use this feature, you can&#39;t use it again until you finish a long rest.</text></feat><feat><optional>1</optional><name>Oath of Devotion: Holy Nimbus</name><text>At 20th level, as an action, you can emanate an aura of sunlight. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that.
+    Whenever an enemy creature starts its turn in the bright light, the creature takes 10 radiant damage.
+    In addition, for the duration, you have advantage on saving throws against spells cast by fiends or undead.
+    Once you use this feature, you can&#39;t use it again until you finish a long rest.</text></feat><feat><optional>1</optional><name>Oath of Vengeance: Avenging Angel</name><text>At 20th level, you can assume the form of an angelic avenger. Using your action, you undergo a transformation. For 1 hour, you gain the following benefits:
+
+• Wings sprout from your back and grant you a flying speed of 60 feet.
+• You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become frightened of you for 1 minute or until it takes any damage. Attack rolls against the frightened creature have advantage.
+
+    Once you use this feature, you can&#39;t use it again until you finish a long rest.</text></feat><feat><optional>1</optional><name>Oathbreaker: Dread Lord</name><text>At 20th-level, the paladin can, as an action, surround himself or herself with an aura of gloom that lasts for 1 minute. The aura reduces any bright light in a 30-foot radius around the paladin to dim light. Whenever an enemy that is frightened by the paladin starts its turn in the aura, it takes 4d10 psychic damage. Additionally, the paladin and creatures he or she chooses in the aura are draped in deeper shadow. Creatures that rely on sight have disadvantage on attack rolls against creatures draped in this shadow.
+    While the aura lasts, the paladin can use a bonus action on his or her turn to cause the shadows in the aura to attack one creature. The paladin makes a melee spell attack against the target. If the attack hits, the target takes necrotic damage equal to 3d10 + the paladin&#39;s Charisma modifier.
+    After activating the aura, the paladin can&#39;t do so again until he or she finishes a long rest.</text></feat><feat><optional>1</optional><name>Oath of the Crown: Exalted Champion</name><text>At 20th level, your presence on the field of battle is an inspiration to those dedicated to your cause. You can use your action to gain the following benefits for 1 hour: 
+
+- You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.
+
+- Your allies have advantage on death saving throws while within 30 feet of you.
+
+- You have advantage on Wisdom saving throws, as do your allies within 30 feet of you.
+
+    This effect ends early if you are incapacitated or die. Once you use this feature, you can&#39;t use it again until you finish a long rest.</text></feat></autolevel>
+</class>
+
+<background><name>Soldier</name><feat><name>Tool Proficiencies</name><text>One type of gaming set, vehicles (land)</text></feat><feat><name>Feature: Military Rank</name><text>You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized.</text></feat><proficiency>117</proficiency><proficiency>103</proficiency></background>
+<xp>0</xp>
+<abilities>15,10,13,8,10,15,</abilities>
+<hpMax>12</hpMax><hpCurrent>12</hpCurrent><hpTemp>0</hpTemp>
+<item><name>Heavy Trident</name><type>5</type><slot>2</slot><weight>4</weight><damage1H>1d8</damage1H><damageType>2</damageType><mod><type>1</type></mod></item>
+<item><name>Shield</name><text>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.
+
+Source: Player&#39;s Handbook, page 144</text><type>4</type><slot>4</slot><weight>6</weight><ac>2</ac></item>
+<item><name>Chain Mail</name><text>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.
+
+Source: Player&#39;s Handbook, page 145</text><type>3</type><slot>5</slot><weight>55</weight><ac>16</ac><strength>13</strength><stealth>1</stealth></item>
+<item><name>Javelin</name><text>Range: A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon&#39;s normal range in feet, and the second indicates the weapon&#39;s maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can&#39;t attack a target beyond the weapon&#39;s long range.
+
+Thrown: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.
+
+Source: Player&#39;s Handbook, page 149</text><type>5</type><quantity>5</quantity><weight>2</weight><damage1H>1d6</damage1H><damageType>2</damageType><weaponProperty>128</weaponProperty><weaponRange>30</weaponRange><weaponLongRange>120</weaponLongRange><mod><type>1</type></mod></item>
+<item><name>Explorer&#39;s Pack</name><text>Includes:
+
+• a backpack
+
+• a bedroll
+
+• a mess kit
+
+• a tinderbox
+
+• 10 torches
+
+• 10 days of rations
+
+• a waterskin
+
+• 50 feet of hempen rope
+
+Source: Player&#39;s Handbook, page 151</text><weight>59</weight></item>
+<item><name>Gold (gp)</name><text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).
+
+With one gold piece, a character can buy a belt pouch, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don&#39;t usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer&#39;s work for a day, a flask of lamp oil, or a night&#39;s rest in a poor inn.
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
+
+Source: Player&#39;s Handbook, page 143</text><type>15</type><quantity>10</quantity><weight>0.02</weight></item>
+<item><name>Holy Symbol (Amulet)</name><text>A holy symbol is a representation of a god or pantheon
+
+A cleric or paladin can use a holy symbol as a spellcasting focus, using it in place of any material components which do not list a cost. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.
+
+Source: Player&#39;s Handbook, page 151</text><weight>1</weight></item>
+<item><name>Dice Set</name><text>If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.
+
+Source: Player&#39;s Handbook, page 154</text></item>
+<tracker><label>Divine Sense</label><resetType>2</resetType><value>4</value><formula>4</formula></tracker>
+<tracker><label>Lay on Hands</label><type>0</type><value>5</value><formula>5</formula></tracker>
+<tracker><label>Fog Cloud</label><resetType>2</resetType><value>1</value><formula>1</formula></tracker>
+<imageData><uniqueID>1416</uniqueID></imageData></character></pc>
